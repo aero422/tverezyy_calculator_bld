@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="60dp">
+
+    <Button
+        android:id="@+id/btn_del"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/round_transp"
+        android:text="X"
+        android:textColor="@color/AliceBlue"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/tv_title_task"
+        android:layout_width="match_parent"
+        android:textSize="30dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/et_password"
+        android:layout_alignStart="@+id/et_password"
+        android:gravity="center"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/rounded" />
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="39dp"
+        android:layout_height="33dp"
+        android:layout_alignParentTop="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/round"
+        android:textAlignment="center"
+        android:text="→"
+        android:textColor="@color/AliceBlue"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+</LinearLayout>
